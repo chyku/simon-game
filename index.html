@@ -1,0 +1,46 @@
+<head>
+	<audio>
+		<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg"></source>
+	</audio>
+	<audio>
+		<source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg"></source>
+	</audio>
+	<audio>
+		<source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg"></source>
+	</audio>
+	<audio>
+		<source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg"></source>
+	</audio>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class = "game">
+      <h1>Simon Game</h1>
+      <table>
+        <tr class = "r0">
+          <td class = "box b0"></td>
+          <td class = "box b1"></td>
+        </tr>
+        <tr class = "r1">
+          <td class = "box b2"></td>
+          <td class = "box b3"></td>
+        </tr>
+      </table>
+
+      <div class = "control">
+        <button>Count: <span id = "count">0</span> </button>
+        <p><button id = "strict">Strict: <span>off</span></button></p>
+        <button id = "start">Start</button>
+        <button id = "restart">Restart</button>
+      </div>
+      
+      <div class = "results">
+		  </div>
+		</div>
+		
+	</div>
+</body>
